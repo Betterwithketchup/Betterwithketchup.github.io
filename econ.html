@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Calculator</title>
+	<!-- css -->
+	<link href="css/nouislider.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<nav class="row blue">
+		<div class="nav-wrapper blue">
+		  <a class="brand-logo col s1" href="index.html">Aaron Haber</a>
+		  <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="bio.html">Bio</a></li>
+			<li><a href="https://github.com/Betterwithketchup">Github</a></li>
+		  </ul>
+		</div>
+	</nav>
+</head>
+<main class="cyan lighten-5">
+	<div class="row">
+		<form class="col s3 offset-s1" action="" method="" id="notform" >
+			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
+			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
+			<p class="range-field">Investment Returns<input type="range" id="returns" min="0" max="10"></p>
+			<p class="range-field">RoI <input type="range" id="rate" min="0" max="17"></p>
+			<p class="range-field">Age End <input type="range" id="ageEnd" min="21" max="85"></p>
+			<p class="range-field">Margin tax rate <input type="range" id="tax" min="0" max="40"></p>
+			
+			<input id="submitter" type="submit" value="Numbers!"></input>
+
+		</form>
+		<div class="col s6">
+   		 <canvas id="chart"></canvas>
+		</div>
+	</div>
+	<div class="row">
+		<form class="col s3 offset-s1" action="" method="" id="notform" >
+			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
+			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
+			<div class="divider"></div>
+			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
+			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
+			<div class="divider"></div>
+			<p class="range-field">RoI <input type="range" id="rate" min="0" max="17"></p>
+			<p class="range-field">Age End <input type="range" id="ageEnd" min="21" max="85"></p>
+			
+			<input id="submitter" type="submit" value="Numbers!"></input>
+
+		</form>
+		<div class="col s6">
+   		 <canvas id="chart2"></canvas>
+		</div>
+	</div>
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js" ></script>
+	<script src="js/econ.js"></script>
+	
+</main>
+<footer class="page-footer blue" style="margin-top: 0px">
+	<div class="footer-copyright">
+	<div class="container">
+	<div class="grey-text text-lighten-4 left">This website created with Materialize and Github Pages</div>
+      <a class="grey-text text-lighten-4 right" href="http://crouton.net">???</a>
+      </div>
+	</div>
+</footer>
+</html>
