@@ -21,32 +21,37 @@
 <main class="cyan lighten-5">
 	<div class="row">
 		<form class="col s3 offset-s1" action="" method="" id="notform" >
-			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
-			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
-			<p class="range-field">Investment Returns<input type="range" id="returns" min="0" max="10"></p>
-			<p class="range-field">RoI <input type="range" id="rate" min="0" max="17"></p>
-			<p class="range-field">Age End <input type="range" id="ageEnd" min="21" max="85"></p>
-			<p class="range-field">Margin tax rate <input type="range" id="tax" min="0" max="40"></p>
-			
-			<input id="submitter" type="submit" value="Numbers!"></input>
 
+			<div id="iAmount"></div>
+			<input id="field1">
+			<div id="ageStart"></div>
+			<input id="field2">
+			<div id="returns"></div>
+			<input id="field3">
+			<div id="rate"></div>
+			<input id="field4">
+			<div id="ageEnd"></div>
+			<input id="field5">
+			<div id="tax"></div>
+			<input id="field6">
+			<input id="submitter" type="submit" value="Numbers!"></input>
 		</form>
 		<div class="col s6">
    		 <canvas id="chart"></canvas>
 		</div>
 	</div>
 	<div class="row">
-		<form class="col s3 offset-s1" action="" method="" id="notform" >
-			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
-			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
+		<form class="col s3 offset-s1" action="" method="" id="notform2" >
+			<p class="range-field">Money<input type="range" id="iAmount2" min="20" max="20000"></p>
+			<p class="range-field">Age Start <input type="range" id="ageStart2" min="20" max="65"></p>
 			<div class="divider"></div>
-			<p class="range-field">Money<input type="range" id="iAmount" min="20" max="20000"></p>
-			<p class="range-field">Age Start <input type="range" id="ageStart" min="20" max="65"></p>
+			<p class="range-field">Money<input type="range" id="iAmount3" min="20" max="20000"></p>
+			<p class="range-field">Age Start <input type="range" id="ageStart3" min="20" max="65"></p>
 			<div class="divider"></div>
-			<p class="range-field">RoI <input type="range" id="rate" min="0" max="17"></p>
-			<p class="range-field">Age End <input type="range" id="ageEnd" min="21" max="85"></p>
+			<p class="range-field">RoI <input type="range" id="rate2" min="0" max="17"></p>
+			<p class="range-field">Age End <input type="range" id="ageEnd2" min="21" max="85"></p>
 			
-			<input id="submitter" type="submit" value="Numbers!"></input>
+			<input id="submitter2" type="submit" value="Numbers!"></input>
 
 		</form>
 		<div class="col s6">
@@ -56,7 +61,7 @@
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
-	<script src="js/nouislider.min.js"></script>
+	<script src="js/nouislider.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js" ></script>
 	<script src="js/econ.js"></script>
 	
