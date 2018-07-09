@@ -3,7 +3,11 @@
     var dis = $("#disabled").val();
     //document.getElementById("disabled").value = $("#cog").val()+$("#int").val()+$("#ref").val()+$("#sav").val()+$("#som").val()+$("#wil").val();
     console.log("Ping");
-
+    $( "#skills" ).draggable({axis:"y"});
+    $('.scrollspy').scrollSpy();
+    for (var i = $(".SOM").length - 1; i >= 0; i--) {
+    	$(".SOM").get(i).innerHTML+=10
+    }
  });
 
  /*$('#cog').on('update',function(event){

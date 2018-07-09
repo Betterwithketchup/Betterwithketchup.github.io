@@ -29,3 +29,9 @@ main {
 .row {
 	margin-bottom: 0px;
 }
+#skills{
+  /*padding-right: 1000px;*/
+}
+.section{
+  padding-bottom: 75px;
+}
